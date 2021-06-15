@@ -1,0 +1,35 @@
+
+
+/*selector {
+
+estilos:verde;
+}*/
+
+h1,h2,h3{
+    color:cornsilk;
+}
+
+body{
+    background-color: black;
+}
+
+#texto{
+    background-color: rgb(255, 72, 0);
+}
+nav ul li a.soy1{
+    color: coral;
+    text-decoration: none;
+}
+
+
+h1{/*el h1 tendra el ultimo color que pusimos*/
+color:red;
+color:aqua;
+color:chocolate;
+color: darkblue;
+}
+
+.colores{
+    background-color: rgb(11, 184, 132);
+    color: darkmagenta;
+}
