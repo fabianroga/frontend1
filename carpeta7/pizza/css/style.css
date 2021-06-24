@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background: black;
+    display: flex;
+   flex-direction:row-reverse;
+
+}
+
+
+.logo{
+   
+    background-image: url(../Logo.png);
+    width: 400px;
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 925px;
+    margin-left: 20px;
+    
+    
+}
+
+.caja{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background:black;
+    padding-top: 30px;
+    
+    width: 100px;
+    height: 90px;
+    margin: 10px;
+}
+
+main{
+    background:  #E5E5E5;;
+    display: flex;
+   flex-direction:row;
+   justify-content: center;
+   height: 550px;
+}
+
+.cajados{
+    background: white;
+    width: 490px;
+    height: 350px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+
+.primero{
+    font-family: 'Roboto', sans-serif;
+    color:red;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 5px;
+    background-image: url(../delivery.jpg);
+}
+.blanco{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.segunda{
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.titulocajados{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 150px;
+    font-family: 'Roboto', sans-serif;
+    color:red;
+}
+
+.subtitulocajados{
+    font-size: 20px;
+    position:absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.list{
+ 
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    line-height : 30px;
+    position:absolute;
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+.pizzafa{
+    width: 92px;
+    height: 129px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+footer{
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    height: 130px;
+    background: black;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logofoo{
+    
+    position: absolute;
+    margin-left: 1210px;
+}
